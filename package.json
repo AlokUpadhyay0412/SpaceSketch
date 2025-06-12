@@ -1,0 +1,12 @@
+{
+  "name": "home-design-planner",
+  "version": "1.0.0",
+  "description": "Home Design Planner web app with Node.js and MySQL backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "aloku",
+  "license": "ISC",
+  "dependencies": {}
+}
