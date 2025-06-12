@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Floor Planner</title>
+  <link rel="stylesheet" href="dsstyle.css"/>
+</head>
+<body>
+  <header>
+    <h1>📐 Floor Plan Creator</h1>
+    <div class="toolbar">
+      <button onclick="addRoomImage('images/livingroom.png')">Living Room</button>
+      <button onclick="addRoomImage('images/kitchen.png')">Kitchen</button>
+      <button onclick="addRoomImage('images/bedroom.png')">Bedroom</button>
+      <button onclick="addRoomImage('images/bathroom.png')">Bathroom</button>
+      <button onclick="addRoomImage('images/dinning.png')">Dining</button>
+      <button onclick="addRoomImage('images/stairs.png')">Stairs</button>
+      <button onclick="addRoomImage('images/door.png')">Door</button>
+      <button onclick="addRoomImage('images/wall.png')">Wall</button>
+      <button onclick="capturePlan()">Download Plan</button>
+    </div>
+  </header>
+  <div id="floor-canvas"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="dsscript.js"></script>
+</body>
+</html>
 
