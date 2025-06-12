@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #f4f4f4;
+}
+
+header {
+  background: #004466;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.toolbar {
+  margin-top: 15px;
+}
+
+.toolbar button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  background: #00aaff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.nav-link{
+  margin-top: 15px;
+}
+.nav-button{
+  
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  background: #00aaff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.room {
+  position: absolute;
+  background: rgba(0, 170, 255, 0.2);
+  border: 2px solid #00aaff;
+  border-radius: 4px;
+  width: 150px;
+  height: 100px;
+  padding: 5px;
+  box-sizing: border-box;
+  cursor: grab;
+  user-select: none;
+}
+
+#floor-canvas {
+  margin: 20px auto;
+  width: 90%;
+  height: 600px;
+  background: white;
+  border: 2px solid #ccc;
+  position: relative;
+}
+
+.room {
+  position: absolute;
+  background: rgba(0, 170, 255, 0.2);
+  border: 2px solid #00aaff;
+  border-radius: 4px;
+  width: 150px;
+  height: 100px;
+  padding: 5px;
+  box-sizing: border-box;
+  cursor: move;
+  user-select: none;
+}
