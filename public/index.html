@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dream Homes - Design Planner</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+  <div class="container header-flex">
+    <h1 class="logo">
+      <img src="resources/logo.png"  class="logo-img" />
+      Dream Homes
+    </h1>
+    <nav class="nav-links">
+      <a href="login.html" class="nav-button">Login</a>
+      <a href="signup.html" class="nav-button nav-signup">Sign Up</a>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <section class="hero-v2">
+      <div class="hero-left">
+        <h1>Design <span class="highlight">Smarter</span></h1>
+        <p>
+          Build your dream home with precision and ease using our powerful online design tools. Visualize, plan, and perfect your space — all from one platform.
+        </p>
+        <button onclick="startDesign()">Start Designing</button>
+      </div>
+      <div class="hero-right">
+        <img src="resources/2.0.png" alt="Home Design Visualization" />
+      </div>
+    </section>
+  <section class="step-section">
+  <div class="step-grid">
+    <div class="step-card">
+      <img src="resources/upload1.png" alt="Upload Floor Plan" />
+      <h2>Create or Upload Your Floor Plan</h2>
+      <p>
+        Start your design journey by uploading an existing floor plan or drawing one from scratch using our intuitive tools. Our smart AI instantly transforms your layout into editable 2D and 3D formats, optimized for Vastu compliance and real-world dimensions.
+      </p>
+      <p>
+        Whether it’s a 2BHK apartment or a duplex villa, you’ll be able to lay the perfect foundation for your dream home in minutes.
+      </p>
+    </div>
+    <div class="step-card">
+      <img src="resources/Design & Decorate in Real-Time 3D.png" alt="Design Interface" />
+      <h2>Design & Decorate in Real-Time 3D</h2>
+      <p>
+        Explore endless interior possibilities using our massive catalog of furniture, textures, and finishes. With drag-and-drop simplicity and real-time 3D previews, you can personalize every corner of your space, from ceiling lights to flooring patterns.
+      </p>
+      <p>
+        Customize your rooms down to the smallest detail — color palettes, decor styles, and furniture layouts — all with photorealistic accuracy.
+      </p>
+    </div>
+    <div class="step-card">
+      <img src="resources/EASY-RENDER.png" alt="3D Visualization" />
+      <h2>Stunning 4K Real-Time Rendering</h2>
+      <p>
+        Instantly bring your designs to life with ultra-high-quality 4K rendering. Our cloud engine produces photorealistic lighting, shadows, and reflections — no need to wait hours for preview images.
+      </p>
+      <p>
+        Walk through your virtual space in 360°, explore multiple camera angles, and present your ideas with professional polish, whether you’re renovating or building new.
+      </p>
+    </div>
+    <div class="step-card">
+      <img src="resources/ai.png" alt="AI Design Tools" />
+      <h2>Unlock AI-Powered Layout & Style Suggestions</h2>
+      <p>
+        Let our AI assistant guide your design choices. From layout optimization to matching your style preferences (Scandinavian, Luxury, Minimalist), get instant recommendations that align with your goals and space constraints.
+      </p>
+      <p>
+        Real-time edits and intelligent suggestions ensure your home not only looks beautiful but functions perfectly for your lifestyle.
+      </p>
+    </div>
+  </div>
+</section>
+<section class="community-section">
+  <h2>Coohom Global Designer Community</h2>
+  <p>Connect with 3D designers, architects, and home enthusiasts across India. Share ideas, explore trends, and get feedback—whether it’s a Vastu pooja room or a sustainable home!</p>
+  <a href="#" class="learn-more">Learn More →</a>
+
+  <div class="avatars">
+    <img src="resources/av1.png" alt="Avatar" />
+    <img src="resources/av2.png" alt="Avatar" />
+    <img src="resources/av3.png" alt="Avatar" />
+    <img src="resources/av4.png" alt="Avatar" />
+    <img src="resources/av5.png" alt="Avatar" />
+    <img src="resources/av6.png" alt="Avatar" />
+    <img src="resources/av7.png" alt="Avatar" />
+    <img src="resources/av8.png" alt="Avatar" />
+  </div>
+
+  <div class="metrics-grid">
+    <div class="metric-card">
+      <h3>10M+</h3>
+      <p>Projects plans created daily.</p>
+    </div>
+    <div class="metric-card">
+      <h3>400K+</h3>
+      <p>Projects rendered daily.</p>
+    </div>
+    <div class="metric-card">
+      <h3>1M+</h3>
+      <p>Five-star reviews</p>
+    </div>
+  </div>
+</section>
+<section class="testimonial-section">
+  <div class="testimonial-grid">
+    <!-- Testimonial 1 -->
+    <div class="testimonial-card">
+      <img src="resources/review1.jpg" alt="Interior Project" />
+      <div class="testimonial-user">
+        <img src="resources/user1.jpg" alt="Susan" />
+        <div>
+          <strong>Susan</strong><br />
+          <span>Interior Designer</span>
+        </div>
+      </div>
+      <p>
+        "Coohom has sped up my 3D visual presentation time. I no longer have to use two different programs. Coohom does it all and renders in minutes!"
+      </p>
+    </div>
+    <div class="testimonial-card">
+      <img src="resources/review2.jpg" alt="Interior Project" />
+      <div class="testimonial-user">
+        <img src="resources/user2.jpg" alt="Natalia Wright" />
+        <div>
+          <strong>Natalia Wright</strong><br />
+          <span>Interior Designer</span>
+        </div>
+      </div>
+      <p>
+        “I was drawn to its lightning-fast rendering feature, and the quality is so vivid, I just couldn’t stop designing and rendering, because it’s too real.”
+      </p>
+    </div>
+    <div class="testimonial-card">
+      <img src="resources/review3.jpg" alt="Interior Project" />
+      <div class="testimonial-user">
+        <img src="resources/user3.jpg" alt="John Smith" />
+        <div>
+          <strong>John Smith</strong><br />
+          <span>Interior Designer</span>
+        </div>
+      </div>
+      <p>
+        "Coohom's visualizations are the best. My clients really appreciate seeing their future home in a video. It really helped our team’s sales."
+      </p>
+    </div>
+</section>
+  </main>
+  <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div>
+        <h4>General</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Enterprise</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Security</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#">Diagramming</a></li>
+          <li><a href="#">Whiteboard</a></li>
+          <li><a href="#">Floor Plan Designer</a></li>
+          <li><a href="#">Apps & Integrations</a></li>
+          <li><a href="#">Flowchart Maker</a></li>
+          <li><a href="#">Org Chart Templates</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Solutions</h4>
+        <ul>
+          <li><a href="#">Interior Design</a></li>
+          <li><a href="#">Real Estate</a></li>
+          <li><a href="#">Architecture</a></li>
+          <li><a href="#">Construction</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Templates</a></li>
+          <li><a href="#">Explore Features</a></li>
+          <li><a href="#">API Access</a></li>
+          <li><a href="#">Docs</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-brand">
+        <img src="resources/logo.png" alt="Dream Homes Logo" />
+        <p>&copy; Dream Homes Inc. All rights reserved.</p>
+      </div>
+      <div class="footer-socials">
+        <a href="#"><img src="resources/link.svg" alt="LinkedIn" /></a>
+        <a href="#"><img src="resources/yt.svg" alt="YouTube" /></a>
+        <a href="#"><img src="resources/tw.svg" alt="X/Twitter" /></a>
+        <a href="#"><img src="resources/fb.svg" alt="Facebook" /></a>
+        <a href="#"><img src="resources/insta.svg" alt="Instagram" /></a>
+      </div>
+    </div>
+  </div>
+</footer>
+  <script>
+    function startDesign() {
+      window.location.href = "login.html";
+    }
+  </script>
+</body>
+</html>
