@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '#Aloku0412', 
+  password: //ENter your password, 
   database: 'home_design'
 });
 
@@ -26,7 +26,7 @@ db.connect(err => {
     console.error('MySQL connection error:', err);
     process.exit(1);
   }
-  console.log("✅ MySQL connected");
+  console.log("MySQL connected");
 });
 
 // === Signup Route ===
@@ -71,7 +71,7 @@ app.post('/login', (req, res) => {
     const match = await bcrypt.compare(password, user.password);
 
     if (match) {
-      console.log("✅ Login success for:", email);
+      console.log("Login success for:", email);
       res.redirect('design.html'); 
     } else {
       res.status(401).send('Invalid credentials');
@@ -79,5 +79,6 @@ app.post('/login', (req, res) => {
   });
 });
 app.listen(PORT, () => {
-  console.log(`🚀 Server running at: http://localhost:${PORT}`);
+  console.log(`Server running at: http://localhost:${PORT}`);
 });
+
